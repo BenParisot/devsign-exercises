@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto+Mono:400,400i&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: coral;
+    padding: 10px 25px;
+}
+
+header h1 {
+    font-size: 22px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
+
+header h2 {
+    font-size: 18px; 
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+header nav a:nth-child(2n) {
+    border-left: 3px solid white;
+    padding-left: 10px;
+
+}
+
+main {
+    padding: 10px 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+article header {
+    background-color: white;
+    padding: 0px;
+}
+
+.story-masthead {
+    display: flex;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+}
+
+.story h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+aside li {
+    list-style-type: square;
+    font-size: 18px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: lightcoral;
+}
